@@ -1,35 +1,38 @@
 
 # IPL Fantasy AI
 
-AI-powered IPL fantasy recommendation system using machine learning, optimization, and cricket analytics.
+Machine Learning project for predicting IPL fantasy cricket points using player statistics and recent form.
 
 ## Features
-- Fantasy points prediction
-- Best XI recommendation
-- Captain/Vice-Captain suggestions
-- Venue intelligence
-- Player matchup analysis
-- Budget optimization
+
+- Batting statistics aggregation
+- Bowling statistics aggregation
+- Recent Form (Last 5 Matches)
+- Recent Form (Last 10 Matches)
+- Last Match Fantasy Points
+- Random Forest Regression Model
+
+## Model Performance
+
+| Metric | Value |
+|----------|----------|
+| MAE | 0.338 |
+| R² | 0.997 |
 
 ## Tech Stack
+
 - Python
 - Pandas
-- Scikit-learn
-- XGBoost
-- OR-Tools
-- Streamlit
-
-## Dataset
-- Cricsheet IPL Ball-by-Ball Dataset
+- NumPy
+- Scikit-Learn
+- Google Colab
 
 ## Project Structure
 
+```text
 ipl-fantasy-ai/
-│
-├── data/
 ├── notebooks/
-├── scripts/
 ├── models/
-├── app/
-├── reports/
-└── assets/
+├── screenshots/
+├── requirements.txt
+└── README.md
